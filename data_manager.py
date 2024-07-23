@@ -1,6 +1,7 @@
 import requests
 from pprint import pprint
 import os
+from requests.auth import HTTPBasicAuth
 from dotenv import load_dotenv
 
 load_dotenv()
